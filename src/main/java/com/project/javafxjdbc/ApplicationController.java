@@ -31,7 +31,7 @@ public class ApplicationController implements Initializable {
 
     @FXML
     public void onMenuItemDepartmentAction(){
-        System.out.println("onMenuItemDepartmentAction");
+        loadView("/com/project/javafxjdbc/DepartmentList.fxml");
     }
 
     @FXML
