@@ -13,4 +13,5 @@ module com.project.javafxjdbc {
 
     opens com.project.javafxjdbc to javafx.fxml;
     exports com.project.javafxjdbc;
+    opens com.project.javafxjdbc.model.entities to javafx.base;
 }
