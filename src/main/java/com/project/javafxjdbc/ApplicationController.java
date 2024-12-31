@@ -1,5 +1,6 @@
 package com.project.javafxjdbc;
 
+import com.project.javafxjdbc.Application;
 import com.project.javafxjdbc.gui.util.Alerts;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
