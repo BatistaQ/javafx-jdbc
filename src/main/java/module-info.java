@@ -10,6 +10,7 @@ module com.project.javafxjdbc {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
 
     opens com.project.javafxjdbc to javafx.fxml;
     exports com.project.javafxjdbc;
